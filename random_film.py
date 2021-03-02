@@ -8,6 +8,7 @@ import os
 from time import sleep
 import secrets as s
 chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--headless')
 prefs = {
     "profile.default_content_settings.popups": 0,
     "download.default_directory": os.getcwd() + os.path.sep,
