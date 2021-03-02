@@ -1,0 +1,19 @@
+{
+  "name": "random-film",
+  "version": "1.0.0",
+  "description": "Provides a random selection from a Letterboxd watchlist csv.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.0",
+    "run-sequence": "^1.2.2",
+    "susy": "^2.2.12"
+  }
+}
