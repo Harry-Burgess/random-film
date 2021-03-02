@@ -3,3 +3,4 @@ venv
 __pycache__
 site-files/node_modules
 site-files/index.html
+secrets.py

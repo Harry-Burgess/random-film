@@ -16,7 +16,6 @@ Date,Name,Year,Letterboxd URI
 2019-03-13,A Woman Under the Influence,1974,https://boxd.it/1myg
 2019-03-13,Aaaaaaaah!,2015,https://boxd.it/bFkW
 2019-03-13,About Schmidt,2002,https://boxd.it/26mU
-2019-03-13,Adaptation.,2002,https://boxd.it/26mA
 2019-03-13,Advantageous,2015,https://boxd.it/9SRK
 2019-03-13,After Hours,1985,https://boxd.it/1VfS
 2019-03-13,"Aguirre, the Wrath of God",1972,https://boxd.it/27Fe
@@ -309,7 +308,6 @@ Date,Name,Year,Letterboxd URI
 2019-03-13,Retroactive,1997,https://boxd.it/1tmQ
 2019-03-13,Revanche,2008,https://boxd.it/1MdS
 2019-03-13,Rio Bravo,1959,https://boxd.it/2aE4
-2019-03-13,Room,2015,https://boxd.it/7T0y
 2019-03-13,Run Lola Run,1998,https://boxd.it/2b8o
 2019-03-13,Rust and Bone,2012,https://boxd.it/3mDE
 2019-03-13,Safe,1995,https://boxd.it/1gKU
@@ -763,7 +761,7 @@ Date,Name,Year,Letterboxd URI
 2019-12-01,"Bikram: Yogi, Guru, Predator",2019,https://boxd.it/n0BG
 2019-12-01,Big Hero 6,2014,https://boxd.it/5rje
 2019-12-07,"So Long, My Son",2019,https://boxd.it/hNzi
-2020-01-02,The French Dispatch,2021,https://boxd.it/jLP8
+2020-01-02,The French Dispatch,,https://boxd.it/jLP8
 2020-01-02,Dune,2021,https://boxd.it/fA7G
 2020-01-02,No Time to Die,2021,https://boxd.it/cPX2
 2020-01-02,Last Night in Soho,2021,https://boxd.it/lbJC
@@ -780,7 +778,7 @@ Date,Name,Year,Letterboxd URI
 2020-02-03,Hustlers,2019,https://boxd.it/jIBM
 2020-02-03,Possessor,2020,https://boxd.it/fsJW
 2020-02-03,Never Rarely Sometimes Always,2020,https://boxd.it/lWJk
-2020-02-07,63 Up,2019,https://boxd.it/kNsM
+2020-02-07,63 Up,2019,https://boxd.it/q69u
 2020-02-08,The Climb,2019,https://boxd.it/lXDM
 2020-03-26,Jane Eyre,2011,https://boxd.it/15rs
 2020-03-26,Sweet Virginia,2017,https://boxd.it/eBmA
@@ -856,7 +854,7 @@ Date,Name,Year,Letterboxd URI
 2020-09-03,Audition,1999,https://boxd.it/1UHm
 2020-09-03,First Love,2019,https://boxd.it/m0iC
 2020-09-03,Millennium Actress,2001,https://boxd.it/1fK0
-2020-09-03,demonlover,2002,https://boxd.it/1xz0
+2020-09-03,Demonlover,2002,https://boxd.it/1xz0
 2020-09-03,Taxidermia,2006,https://boxd.it/1LBO
 2020-09-03,The Fall,2006,https://boxd.it/1NoM
 2020-09-03,Alice,1988,https://boxd.it/1G3C
@@ -908,7 +906,7 @@ Date,Name,Year,Letterboxd URI
 2020-09-04,Control,2003,https://boxd.it/23dK
 2020-09-04,Tetsuo: The Iron Man,1989,https://boxd.it/ZoM
 2020-09-04,Seconds,1966,https://boxd.it/1Dbe
-2020-09-04,Rapture,1980,https://boxd.it/24f8
+2020-09-04,Rapture,1979,https://boxd.it/24f8
 2020-09-04,Bibliothèque Pascal,2010,https://boxd.it/Buc
 2020-09-04,Resolution,2012,https://boxd.it/41hY
 2020-09-04,In My Skin,2002,https://boxd.it/283A
@@ -974,3 +972,7 @@ Date,Name,Year,Letterboxd URI
 2021-01-19,Seduced and Abandoned,1964,https://boxd.it/W1q
 2021-01-19,Divorce Italian Style,1961,https://boxd.it/1DNs
 2021-01-19,The 'Burbs,1989,https://boxd.it/1SDi
+2021-01-22,Stretch,2014,https://boxd.it/6Iag
+2021-02-02,Confessions of a Dangerous Mind,2002,https://boxd.it/23Gi
+2021-02-02,Be Kind Rewind,2008,https://boxd.it/23Au
+2021-02-10,The Guilty,2021,https://boxd.it/kOPW

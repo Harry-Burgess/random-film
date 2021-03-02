@@ -2,12 +2,30 @@ import random
 import csv
 import requests
 from bs4 import BeautifulSoup
+from selenium import webdriver
 import webbrowser
 import os
-
+from time import sleep
+import secrets as s
+chrome_options = webdriver.ChromeOptions()
+prefs = {
+    "profile.default_content_settings.popups": 0,
+    "download.default_directory": os.getcwd() + os.path.sep,
+    "directory_upgrade": True
+}
+chrome_options.add_experimental_option('prefs', prefs)
+driver = webdriver.Chrome(options=chrome_options)
+print(prefs)
 
 def pick_film():
-    html_output = ""
+    driver.get("https://letterboxd.com/sign-in/")
+    sleep(2)
+    driver.find_element_by_xpath("//span[contains(text(), 'Continue to Site')]").click()
+    driver.find_element_by_xpath("//input[@name='username']").send_keys(s.login["username"])
+    driver.find_element_by_xpath("//input[@name='password']").send_keys(s.login["password"])
+    driver.find_element_by_xpath("//input[@value='Sign in']").click()
+    sleep(4)
+    driver.get(f"https://letterboxd.com/{s.login['username'].lower()}/watchlist/export/")
 
     with open("watchlist.csv", "r") as csv_file:
         csv_reader = csv.DictReader(csv_file)
@@ -30,6 +48,7 @@ def pick_film():
     pb_link = f"https://thepiratebay.org/search.php?q={(selected_film['Name'] + '+' + selected_film['Year']).replace(' ', '+')}&all=on&search=Pirate+Search&page=0&orderby="
     jw_link = f"https://www.justwatch.com/uk/search?q={selected_film['Name'].replace(' ', '%20')}"
 
+    html_output = ""
     html_output += f"\t\t<h1>{title} ({year})</h1>\n"
     html_output += f"\t\t<div class=\"frame\"><img src=\"{poster}\" alt=\"\"></div>\n"
     html_output += f"\t\t<span>Directed by {director} — {runtime_hours}</span>\n"
