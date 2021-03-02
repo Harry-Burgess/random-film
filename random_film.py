@@ -15,7 +15,6 @@ prefs = {
 }
 chrome_options.add_experimental_option('prefs', prefs)
 driver = webdriver.Chrome(options=chrome_options)
-print(prefs)
 
 def pick_film():
     driver.get("https://letterboxd.com/sign-in/")
@@ -26,6 +25,10 @@ def pick_film():
     driver.find_element_by_xpath("//input[@value='Sign in']").click()
     sleep(4)
     driver.get(f"https://letterboxd.com/{s.login['username'].lower()}/watchlist/export/")
+    sleep(4)
+    prefixed = [filename for filename in os.listdir('.') if filename.startswith("watchlist")]
+    gen_name = prefixed[0]
+    os.rename(gen_name, 'watchlist.csv')
 
     with open("watchlist.csv", "r") as csv_file:
         csv_reader = csv.DictReader(csv_file)
